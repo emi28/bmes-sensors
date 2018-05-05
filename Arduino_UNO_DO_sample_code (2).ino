@@ -14,7 +14,7 @@
 SoftwareSerial myserial(rx, tx);                      //define how the soft serial port is going to work
 
 
-String inputstring = "";                              //a string to hold incoming data from the PC
+String inputstring = "";                              //a string to hold incoming data from the PC, do we need the PC code? 
 String sensorstring = "";                             //a string to hold the data from the Atlas Scientific product
 boolean input_string_complete = false;                //have we received all the data from the PC
 boolean sensor_string_complete = false;               //have we received all the data from the Atlas Scientific product
