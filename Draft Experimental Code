@@ -1,0 +1,14 @@
+// Define Pins
+#define TFT_CS    10
+#define TFT_RST   9
+
+// Global Variables?
+
+// SETUP
+void setup() {
+ 
+  Serial.begin(9600);
+  Serial.println("Starting up.");
+
+  // Get DO Data
+ 
